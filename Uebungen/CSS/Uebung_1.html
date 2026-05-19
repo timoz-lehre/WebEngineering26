@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Übung 1</title>
+    <style>
+
+        .loesungs-box {
+            background-color: white;
+            padding: 40px 60px;
+            /* text-align: center wirkt sich hier auf den Text in der Box aus */
+            text-align: center; 
+        }
+
+        .ziel-text {
+            /* 1. Alle Buchstaben sollen uppercase sein */
+            text-transform: uppercase;
+            
+            /* 2. Die Font Famile soll monospace sein */
+            font-family: monospace;
+            
+            /* 3. Der Text soll zentriert sein (wurde bereits durch das Elternelement abgedeckt, 
+                  kann aber hier auch nochmal explizit für das Element gesetzt werden, falls es ein Block-Element ist) */
+            text-align: center;
+            
+            /* 4. Die Font weight soll 100 betragen */
+            font-weight: 100;
+            
+            /* 5. Die Textgröße soll 40 px betragen */
+            font-size: 40px;
+            
+            /* 6. Der Abstand der Zeichen soll 20 px betragen */
+            letter-spacing: 20px;
+
+            /* Zusatz aus der Abbildung: Der Text ist unterstrichen */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="loesungs-box">
+        <!-- Der Ausgangstext ist normal geschrieben, wird aber durch CSS "uppercase" -->
+        <div class="ziel-text">Hallo Welt</div>
+    </div>
+
+</body>
+</html>
